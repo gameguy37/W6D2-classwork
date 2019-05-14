@@ -1,0 +1,26 @@
+.hanoi {
+    display: flex;
+    justify-content: center;
+}
+
+.hanoi ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hanoi > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    border-bottom: 10px solid black;
+}
+
+.hanoi li {
+    background-color: red;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    list-style: none;
+    border: 3px solid black;
+    padding: 0px;
+}
+
+li {
+    font-size: 85px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    height: 94px;
+    width: 94px;
+    border: 3px solid black;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+.x {
+    background-color: white;
+    color: red;
+}
+
+.x:hover{
+    background-color: white;
+}
+
+.o {
+    background-color: white;
+    color: blue;
+}
+
+.o:hover {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-over {
+    pointer-events: none;
+}

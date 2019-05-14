@@ -1,1 +1,40 @@
 /* PHASE 9: Forms */
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-thumb {
+    display: block;
+    float: left;
+}
+
+.form-fieldset {
+    display: block;
+    float: left;
+    background-color: lightgrey;
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+    border: solid 1px darkgray;
+}
+
+.input label {
+  font-weight: bold;
+}
+
+#form-textarea {
+   background-color: white;
+   
+}
+
+#form-title {
+   background-color: white;
+}
+
+.button {
+  background-color: lime;
+  color: white;
+}
